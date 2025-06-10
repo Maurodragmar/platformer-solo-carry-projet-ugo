@@ -17,3 +17,10 @@ _/  |_ __ ___/  |_  ____
 -lance le
 
 Vidéo tuto : https://youtu.be/XrHyZPutn4g?si=0ak_M_qxylLgBIWs
+
+
+Pour créer un build (fichier .exe):
+
+-vas dans Editor > Manage Export Templates > download and install (à faire qu'une fois)
+
+-ensuite vas dans Project > Eport > Add > Windows Deskop > Export Project

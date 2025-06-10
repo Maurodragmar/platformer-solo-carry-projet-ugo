@@ -5,22 +5,18 @@ _/  |_ __ ___/  |_  ____
  |  | |  |  /|  | (  <_> )
  |__| |____/ |__|  \____/ 
  ```
+## Lancer le projet
 
--télécharge Godot : https://godotengine.org
-
--télécharge le repo (code / download zip)
-
--extrait le zip
-
--lance godot et selectionne le dossier que tu vens d'extraire (platformer-solo-carry-projet-ugo)
-
--lance le
-
-Vidéo tuto : https://youtu.be/XrHyZPutn4g?si=0ak_M_qxylLgBIWs
+* télécharge Godot : https://godotengine.org
+* télécharge le repo (code > download zip)
+* extrait le zip
+* lance godot et selectionne le dossier que tu viens d'extraire (platformer-solo-carry-projet-ugo)
+* lance le !
 
 
-Pour créer un build (fichier .exe):
+## Créer un build (fichier .exe):
 
--vas dans Editor > Manage Export Templates > download and install (à faire qu'une fois)
+* vas dans Editor > Manage Export Templates > download and install (à faire qu'une fois)
+* ensuite vas dans Project > Eport > Add > Windows Deskop > Export Project
 
--ensuite vas dans Project > Eport > Add > Windows Deskop > Export Project
+## Vidéo tuto

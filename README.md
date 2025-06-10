@@ -11,13 +11,13 @@ _/  |_ __ ___/  |_  ____
 * télécharge le repo (code > download zip)
 * extrait le zip
 * lance godot et selectionne le dossier que tu viens d'extraire (platformer-solo-carry-projet-ugo)
-* lance le !
+* lance le
+* vas dans project > project settings > window > mode et choisis fullscreen
 
+## Vidéo tuto
+[![tuto jeu Ugo](https://img.youtube.com/vi/XrHyZPutn4g/0.jpg)](https://www.youtube.com/watch?v=XrHyZPutn4g)
 
 ## Créer un build (fichier .exe):
 
 * vas dans Editor > Manage Export Templates > download and install (à faire qu'une fois)
 * ensuite vas dans Project > Eport > Add > Windows Deskop > Export Project
-
-## Vidéo tuto
-[![tuto jeu Ugo](https://img.youtube.com/vi/XrHyZPutn4g/0.jpg)](https://www.youtube.com/watch?v=XrHyZPutn4g)

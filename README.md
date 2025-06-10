@@ -20,4 +20,4 @@ _/  |_ __ ___/  |_  ____
 ## Créer un build (fichier .exe):
 
 * vas dans Editor > Manage Export Templates > download and install (à faire qu'une fois)
-* ensuite vas dans Project > Eport > Add > Windows Deskop > Export Project
+* ensuite vas dans Project > Export > Add > Windows Deskop > Export Project

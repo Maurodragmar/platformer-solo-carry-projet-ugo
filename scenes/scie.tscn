@@ -1,0 +1,84 @@
+[gd_scene load_steps=13 format=3 uid="uid://d08m20t0a1yx6"]
+
+[ext_resource type="Script" path="res://scripts/trap.gd" id="1_f3rah"]
+[ext_resource type="Texture2D" uid="uid://hbicoax6gpl" path="res://assets/Traps/Saw/On (38x38).png" id="1_yojhl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1vcd"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(0, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gipwf"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(38, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gg6ge"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(76, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kx70h"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(114, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dri4m"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(152, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_64vce"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(190, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0cvyl"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(228, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jf4wr"]
+atlas = ExtResource("1_yojhl")
+region = Rect2(266, 0, 38, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k33bl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1vcd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gipwf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gg6ge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kx70h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dri4m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_64vce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0cvyl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jf4wr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wmsdk"]
+radius = 20.0
+
+[node name="scie" type="Area2D"]
+script = ExtResource("1_f3rah")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_k33bl")
+frame = 6
+frame_progress = 0.95189
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_wmsdk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
